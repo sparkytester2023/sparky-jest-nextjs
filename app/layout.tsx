@@ -1,6 +1,10 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
+import '@petsmart-ui/sparky/dist/head.css';
+import '@petsmart-ui/sparky/dist/tokens.css';
+import '@petsmart-ui/sparky/dist/components.css';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
